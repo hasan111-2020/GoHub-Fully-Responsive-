@@ -1,0 +1,730 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+/* Header CSS */
+.header{
+    background: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.header .navbar{
+    padding: 20px 0px;
+}
+
+.header .navbar-nav{}
+
+.header .navbar-nav .nav-item{}
+
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 19px;
+    color: #525f7f;
+    margin-left: 38px;
+}
+
+.header .navbar-nav .nav-item .nav-link.btn{
+    background: #845cff;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 4px;
+}
+
+.header .navbar-nav .nav-item:hover .nav-link{
+    color: #32325d;
+}
+
+.header .navbar-nav .nav-item:hover .btn.sign-in{
+    color:#fff;
+    background-color: #3d3d72;
+}
+        /*Hero Text CSS*/
+.header .hero-area{
+    margin: 150px 0;
+}
+        .header .hero-area h1{
+    color: #32325d;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.header .hero-area p{
+    line-height: 1.7;
+    font-size: 19px;
+    color: #525f7f;
+    margin-bottom: 44px;
+}
+.header .hero-area .btn.get-started{
+    background: #845cff;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.header .hero-area .btn.get-started:hover{
+    background-color: #525f7f;
+}
+
+.header .hero-area .btn.btn-link{
+    color: #32325d;
+    text-decoration: none;
+}
+
+.header .hero-area .btn.btn-link:hover{
+    color: #5e5ead;
+}
+
+/*Improve Section CSS*/
+.improve{
+    margin-bottom: 100px;
+}
+.improve h4{
+    margin-bottom: 20px;
+}
+.improve p{
+    line-height: 1.7;
+    color: #525f7f;
+    margin-bottom: 0px;
+}
+.improve .common-box{
+    padding: 40px;
+    box-shadow: 1px 1px 4px #525f7f54;
+    margin-right: 20%;
+}
+.improve img{
+    margin-bottom: 30px;
+}
+
+.improve .left-col-box .text-box{
+    padding-right: 30%;
+    margin-top: -60px;
+}
+.improve .left-col-box .text-box h2{
+    color: #32325d;
+    word-spacing: 2px;
+    margin-bottom: 26px;
+}
+
+.improve .left-col-box .monitor-box{
+    margin-top: 150px;
+}
+
+.improve .right-col-box .visible-box{
+    margin-bottom:60px;
+    margin-top: -200px;
+}
+
+/*Service CSS*/
+.service{
+    text-align: center;
+    margin-bottom: 100px;
+    background: url(../images/proof-bg.png);
+    background-size: cover;
+}
+
+.service .text-box{
+    padding: 0 22%;
+    margin-bottom: 100px;
+}
+
+.service .text-box h2{
+    color: #32325d;
+    margin-bottom: 30px;
+}
+
+.service .text-box p{
+    color: #525f7f;
+    line-height: 1.7;
+}
+
+.service .img-box{
+    margin-bottom: 130px;
+}
+
+.service .img-box img{
+    margin-bottom: 30px;
+}
+
+.service .img-box h5{
+    margin-bottom: 20px;
+    color: #212240;
+}
+
+.service .img-box p{
+    color: #525f7f;
+}
+/*Safety CSS*/
+.safety{}
+
+.safety h5,h2{
+    color: #32325d;
+}
+
+.safety .text-box.one{
+    margin-bottom: 200px;
+}
+.safety .text-box.one h2{
+    padding-right: 18%;
+}
+
+.safety .text-box.two{
+    margin-top:30px;
+}
+
+.safety .text-box h2{
+    padding-right: 0%;
+    margin-bottom: 25px;
+    font-size: 44px;
+}
+
+.safety .text-box p{
+    padding-right: 30%;
+    color: #525f7f;
+    margin-bottom: 36px;
+    line-height: 1.7;
+}
+
+.safety .text-box .scnd-text-box{}
+.safety .text-box .scnd-text-box h5{}
+.safety .text-box .scnd-text-box p{
+    font-size: 14px;
+}
+
+.safety .text-box .get-started{
+    background: #845cff;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.safety .btn.get-started:hover{
+    background-color: #525f7f;
+}
+
+.safety .text-box .btn-link{
+    color: #32325d;
+    text-decoration: none;
+}
+
+.safety .text-box .btn-link:hover{
+    color: #845cff;
+}
+
+
+/*Finace CSS*/
+.finance{
+    margin: 100px 0 0 0;
+}
+
+.finance .text-box{
+    margin-bottom: 100px;
+}
+
+.finance .img-box.main img{
+    margin-bottom: 100px;
+}
+
+.finance .text-box h2{
+    font-size: 38px;
+    margin-bottom: 35px;
+}
+
+.finance .text-box p{
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.finance .text-box.one{}
+.finance .text-box.two{}
+.finance .text-box.three{}
+.finance .text-box.four{
+    margin-left:10%
+}
+
+.finance .text-box.main h4{
+    color: #32325d;
+    margin-bottom: 40px;
+}
+
+.finance .text-box.main .img-box{
+    margin-bottom: 30px;
+}
+.finance .text-box.main .img-box img{}
+
+.finance .text-box.main .img-box span{
+    margin-left: 25px;
+    color: #32325d;
+}
+
+/*Guide CSS*/
+.guide{
+    background-color: #fafaff;
+    padding: 60px 0;
+}
+.guide .text-box{}
+.guide .text-box img{
+    margin-bottom: 20px;
+}
+.guide .text-box h2{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.guide .text-box p{
+    margin-bottom: 0;
+}
+.guide .input-group{
+    box-shadow: 1px 1px 4px #525f7f54;
+    margin: 38px 0;
+}
+.guide .input-group .form-control{
+    padding: 26px 14px;
+    border-radius: 4px;
+    border: none;
+}
+
+.guide .input-group .form-control:focus{
+    box-shadow: none;
+    border: none;
+}
+
+.guide input::placeholder{
+    color: #8081ab;
+}
+
+.guide .input-group .input-group-append{}
+.guide .input-group .input-group-append .btn{
+    background: #fff;
+    font-weight: bold;
+    color: #845cff;
+    width: 100%;
+}
+.guide .input-group .input-group-append .btn:focus{
+    box-shadow: none;
+    outline: 0;
+}
+.guide .input-group .input-group-append .btn span{
+    margin-right: 18px;
+}
+.guide .input-group .input-group-append .btn img{}
+
+/*Footer CSS*/
+.footer{
+    background: #212240;
+    padding: 60px 0;
+    color: #fff;
+}
+
+
+.footer .social-box{}
+
+
+.footer .social-box img{
+    margin-bottom: 60px;
+}
+
+
+.footer .social-box p{
+    margin-bottom: 7px;
+}
+
+
+.footer .social-box .mail{
+    margin: 40px 0 30px 0;
+}
+
+
+.footer .social-box .nav{}
+
+.footer .social-box .nav-link:first-child{
+    padding-left: 0;
+}
+
+.footer .social-box nav .nav-link{
+    color: #7b7db7e3;
+}
+
+.footer .social-box nav .nav-link:hover{
+    color: #fff
+}
+
+.footer .text-box{}
+.footer .text-box.one{}
+.footer .text-box.two{}
+.footer .text-box.three .nav-link{
+    padding-bottom: 4px;
+}
+.footer .text-box .nav{}
+.footer .text-box .nav .nav-item{}
+.footer .text-box .nav .nav-item .nav-link{
+    color: #fff;
+}
+.footer .text-box .nav .nav-item .nav-link:hover{
+    color: #845cff;
+}
+.footer .last-box{
+    margin-top: 85px;
+}
+.footer .last-box p{
+    color: #555377;
+    font-size: 14px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.footer .last-box .nav{
+    float: right;
+}
+.footer .last-box .nav-link{
+    font-size: 14px;
+    color: #555377;
+    padding: 0px 12px;
+}
+.footer .last-box .nav-link:hover{
+    color: #845cff;
+}
+
+/*Responsive CSS*/
+@media (min-width: 0px) and (max-width: 575px){
+    /* Navbar Responsive */
+    .header .navbar-nav .nav-item .nav-link.btn {
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* Hero Area Responsive */
+    .header .hero-area {
+        margin: 70px 0;
+        text-align: center;
+    }
+    .header .hero-area h1 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .header .hero-area p{
+        color: #2d3446;
+    }
+
+    /*Improve Responsive*/
+    .improve {
+        margin-bottom: 60px;
+    }
+    .improve .left-col-box .text-box {
+        padding-right: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .improve .left-col-box .monitor-box {
+        margin-top: 50px;
+    }
+    .improve .right-col-box .visible-box {
+        margin-top: 50px;
+    }
+    .improve .common-box {
+        margin-right: 0;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    /* Service Section Responsive */
+    .service {
+        margin-bottom: 30px;
+    }   
+    .service .text-box {
+        padding: 0;
+        margin-bottom: 80px;
+    }
+    .service .text-box h2 {
+        margin-bottom: 30px;
+    }
+    .service .img-box {
+        margin-bottom: 60px;
+    }
+
+    /* Safety Responsive */
+    .safety .text-box.one {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .safety .text-box.one h2 {
+        padding-right: 0;
+        font-size: 38px;
+    }
+    .safety .text-box p {
+        padding-right: 0;
+    }
+
+    .safety .img-box.one img{
+        margin-bottom: 60px;
+    }
+    .safety .text-box.two {
+        text-align: center;
+    }
+    .safety .text-box h2 {
+        padding-right: 0%;
+        font-size: 38px;
+    }
+
+    /* Finance Responsive */
+        .finance .text-box {
+        margin-bottom: 60px;
+    }
+    .finance .text-box h2 {
+        font-size: 42px;
+    }
+    .finance .text-box.four {
+        margin-left: 0;
+    }
+    .finance .text-box.main .img-box span {
+        margin-left: 18px;
+    }
+    .finance .img-box.main img {
+        margin-bottom: 60px;
+    }
+
+    /*Guide Responsive*/
+
+    /*Footer Responsive*/
+    .footer{
+        padding:35px 0;
+    }
+    .footer .social-box {
+        text-align: center;
+    }
+    .footer .social-box img {
+        margin-bottom: 20px;
+    }
+    .footer .social-box p {
+        margin-bottom: 0px;
+    }
+    .footer .social-box .mail {
+        margin: 20px 0 20px 0;
+    }
+    .footer .social-box .nav-link:first-child {
+        padding-left: 16px;
+    }
+    .footer .text-box {
+        margin-top: 50px;
+    }
+    .footer .text-box.two{
+        text-align: right;
+    }
+    .footer .text-box.three{
+        text-align: center;
+    }
+    .footer .last-box {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+        /* Navbar Responsive */
+    .header .navbar-nav .nav-item .nav-link.btn {
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* Hero Area Responsive */
+    .header .hero-area {
+        margin: 70px 0;
+        text-align: center;
+    }
+    .header .hero-area h1 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .header .hero-area p{
+        color: #2d3446;
+    }
+
+    /*Improve Responsive*/
+    .improve {
+        margin-bottom: 60px;
+    }
+    .improve .left-col-box .text-box {
+        padding-right: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .improve .left-col-box .monitor-box {
+        margin-top: 50px;
+    }
+    .improve .right-col-box .visible-box {
+        margin-top: 50px;
+    }
+    .improve .common-box {
+        margin-right: 0;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    /* Service Section Responsive */
+    .service {
+        margin-bottom: 30px;
+    }   
+    .service .text-box {
+        padding: 0;
+        margin-bottom: 80px;
+    }
+    .service .text-box h2 {
+        margin-bottom: 30px;
+    }
+    .service .img-box {
+        margin-bottom: 60px;
+    }
+
+    /* Safety Responsive */
+    .safety .text-box.one {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .safety .text-box.one h2 {
+        padding-right: 0;
+        font-size: 38px;
+    }
+    .safety .text-box p {
+        padding-right: 0;
+    }
+
+    .safety .img-box.one img{
+        margin-bottom: 60px;
+    }
+    .safety .text-box.two {
+        text-align: center;
+    }
+    .safety .text-box h2 {
+        padding-right: 0%;
+        font-size: 38px;
+    }
+
+    /* Finance Responsive */
+        .finance .text-box {
+        margin-bottom: 60px;
+    }
+    .finance .text-box h2 {
+        font-size: 42px;
+    }
+    .finance .text-box.four {
+        margin-left: 0;
+    }
+    .finance .text-box.main .img-box span {
+        margin-left: 18px;
+    }
+    .finance .img-box.main img {
+        margin-bottom: 60px;
+    }
+
+    /*Guide Responsive*/
+
+    /*Footer Responsive*/
+    .footer{
+        padding:35px 0;
+    }
+    .footer .social-box {
+        text-align: center;
+    }
+    .footer .social-box img {
+        margin-bottom: 20px;
+    }
+    .footer .social-box p {
+        margin-bottom: 0px;
+    }
+    .footer .social-box .mail {
+        margin: 20px 0 20px 0;
+    }
+    .footer .social-box .nav-link:first-child {
+        padding-left: 16px;
+    }
+    .footer .text-box {
+        margin-top: 50px;
+    }
+    .footer .text-box.two{
+        text-align: right;
+    }
+    .footer .text-box.three{
+        text-align: center;
+    }
+    .footer .last-box {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    /*Banner Responsive*/
+    .header .navbar-nav .nav-item .nav-link.btn {
+        margin-top: 20px;
+    }
+    /*Improve CSS*/
+    .improve .common-box {
+        margin-right: 0;
+    }
+        .improve .left-col-box .monitor-box {
+        margin-top: 175px;
+    }
+    .improve .right-col-box .visible-box {
+        margin-top: 50px;
+    }
+    .improve .left-col-box .text-box {
+        margin-top: 100px;
+    }
+
+    /*Safety Responsive*/
+    .safety .img-box.one {
+        margin-bottom: 80px;
+    }
+    .safety .img-box.two{
+        margin-bottom: 80px;
+    }
+    .safety .img-box.two img{
+        margin: 0 auto;
+        display: block;
+    }
+    /*Finance Responsive*/
+    .finance .text-box {
+        margin-bottom: 70px;
+    }
+    .finance .text-box.four {
+        margin-left: 0;
+    }
+    .finance .img-box.main img {
+        margin-bottom: 80px;
+    }
+
+    /*Footer Responsive*/
+    .footer .social-box {
+        margin-bottom: 50px;
+    }
+    .footer .text-box.two .nav-link{
+        padding: 8px 0;
+    }
+    .footer .last-box {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    /*Banner Responsive*/
+    .header .hero-area .btn.btn-link {
+        padding-left: 0;
+    }
+    /*Safety Responsive*/
+    .safety .text-box.one h2 {
+        padding-right: 0;
+    }
+    .safety .img-box.one{
+        margin-top: 15%;
+    }
+    .safety .img-box.two{
+        margin-top: 15%;
+    }
+    .safety .text-box.one {
+        margin-bottom: 120px;
+    }
+
+    /*Finance Responsive*/
+    .finance .text-box {
+        margin-bottom: 80px;
+    }
+    .finance .img-box.main img {
+        margin-top: 17%;
+    }
+}
